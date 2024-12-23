@@ -1,0 +1,124 @@
+! Title: Background playback in social networks and streamings
+! Description: Sets "visibilityState" to "visible" and "hidden" to "false" in the main sites which have audio playback
+! Expires: -1
+! Last modified: Sun, 23 Dec 2024 14:11:35 +0000
+!
+! Amazon (and Prime Video)
+amazon.com##+js(set-constant.js, document.visibilityState, 'visible')
+amazon.com##+js(set-constant.js, document.hidden, 'false')
+primevideo.com##+js(set-constant.js, document.visibilityState, 'visible')
+primevideo.com##+js(set-constant.js, document.hidden, 'false')
+! Apple Music / iTunes
+music.apple.com##+js(set-constant.js, document.visibilityState, 'visible')
+music.apple.com##+js(set-constant.js, document.hidden, 'false')
+itunes.apple.com##+js(set-constant.js, document.visibilityState, 'visible')
+itunes.apple.com##+js(set-constant.js, document.hidden, 'false')
+! Apple TV+
+tv.apple.com##+js(set-constant.js, document.visibilityState, 'visible')
+tv.apple.com##+js(set-constant.js, document.hidden, 'false')
+! Crunchyroll
+crunchyroll.com##+js(set-constant.js, document.visibilityState, 'visible')
+crunchyroll.com##+js(set-constant.js, document.hidden, 'false')
+! Discord
+discord.com##+js(set-constant.js, document.visibilityState, 'visible')
+discord.com##+js(set-constant.js, document.hidden, 'false')
+discordapp.com##+js(set-constant.js, document.visibilityState, 'visible')
+discordapp.com##+js(set-constant.js, document.hidden, 'false')
+! Discovery+
+discoveryplus.com##+js(set-constant.js, document.visibilityState, 'visible')
+discoveryplus.com##+js(set-constant.js, document.hidden, 'false')
+! Disney+
+disneyplus.com##+js(set-constant.js, document.visibilityState, 'visible')
+disneyplus.com##+js(set-constant.js, document.hidden, 'false')
+! Facebook
+facebook.com##+js(set-constant.js, document.visibilityState, 'visible')
+facebook.com##+js(set-constant.js, document.hidden, 'false')
+! Funimation
+funimation.com##+js(set-constant.js, document.visibilityState, 'visible')
+funimation.com##+js(set-constant.js, document.hidden, 'false')
+! HBO Max
+hbomax.com##+js(set-constant.js, document.visibilityState, 'visible')
+hbomax.com##+js(set-constant.js, document.hidden, 'false')
+! Hulu
+hulu.com##+js(set-constant.js, document.visibilityState, 'visible')
+hulu.com##+js(set-constant.js, document.hidden, 'false')
+! Instagram
+instagram.com##+js(set-constant.js, document.visibilityState, 'visible')
+instagram.com##+js(set-constant.js, document.hidden, 'false')
+instagr.com##+js(set-constant.js, document.visibilityState, 'visible')
+instagr.com##+js(set-constant.js, document.hidden, 'false')
+! Linkedin
+linkedin.com##+js(set-constant.js, document.visibilityState, 'visible')
+linkedin.com##+js(set-constant.js, document.hidden, 'false')
+! Netflix
+netflix.com##+js(set-constant.js, document.visibilityState, 'visible')
+netflix.com##+js(set-constant.js, document.hidden, 'false')
+nflx.com##+js(set-constant.js, document.visibilityState, 'visible')
+nflx.com##+js(set-constant.js, document.hidden, 'false')
+! Paramount+
+paramountplus.com##+js(set-constant.js, document.visibilityState, 'visible')
+paramountplus.com##+js(set-constant.js, document.hidden, 'false')
+! Peacock
+peacocktv.com##+js(set-constant.js, document.visibilityState, 'visible')
+peacocktv.com##+js(set-constant.js, document.hidden, 'false')
+! Pinterest
+pinterest.com##+js(set-constant.js, document.visibilityState, 'visible')
+pinterest.com##+js(set-constant.js, document.hidden, 'false')
+! Plex
+plex.tv##+js(set-constant.js, document.visibilityState, 'visible')
+plex.tv##+js(set-constant.js, document.hidden, 'false')
+! Pluto TV
+pluto.tv##+js(set-constant.js, document.visibilityState, 'visible')
+pluto.tv##+js(set-constant.js, document.hidden, 'false')
+! Reddit
+reddit.com##+js(set-constant.js, document.visibilityState, 'visible')
+reddit.com##+js(set-constant.js, document.hidden, 'false')
+! Snapchat
+snapchat.com##+js(set-constant.js, document.visibilityState, 'visible')
+snapchat.com##+js(set-constant.js, document.hidden, 'false')
+! Soundcloud
+soundcloud.com##+js(set-constant.js, document.visibilityState, 'visible')
+soundcloud.com##+js(set-constant.js, document.hidden, 'false')
+! Spotify
+spotify.com##+js(set-constant.js, document.visibilityState, 'visible')
+spotify.com##+js(set-constant.js, document.hidden, 'false')
+! Telegram
+telegram.org##+js(set-constant.js, document.visibilityState, 'visible')
+telegram.org##+js(set-constant.js, document.hidden, 'false')
+t.me##+js(set-constant.js, document.visibilityState, 'visible')
+t.me##+js(set-constant.js, document.hidden, 'false')
+! Tubi
+tubi.tv##+js(set-constant.js, document.visibilityState, 'visible')
+tubi.tv##+js(set-constant.js, document.hidden, 'false')
+! Tiktok
+tiktok.com##+js(set-constant.js, document.visibilityState, 'visible')
+tiktok.com##+js(set-constant.js, document.hidden, 'false')
+! Twitch
+twitch.tv##+js(set-constant.js, document.visibilityState, 'visible')
+twitch.tv##+js(set-constant.js, document.hidden, 'false')
+twitchtv.com##+js(set-constant.js, document.visibilityState, 'visible')
+twitchtv.com##+js(set-constant.js, document.hidden, 'false')
+! Twitter / X
+twitter.com##+js(set-constant.js, document.visibilityState, 'visible')
+twitter.com##+js(set-constant.js, document.hidden, 'false')
+x.com##+js(set-constant.js, document.visibilityState, 'visible')
+x.com##+js(set-constant.js, document.hidden, 'false')
+! Vimeo
+vimeo.com##+js(set-constant.js, document.visibilityState, 'visible')
+vimeo.com##+js(set-constant.js, document.hidden, 'false')
+vimeocdn.com##+js(set-constant.js, document.visibilityState, 'visible')
+vimeocdn.com##+js(set-constant.js, document.hidden, 'false')
+! WhatsApp
+whatsapp.com##+js(set-constant.js, document.visibilityState, 'visible')
+whatsapp.com##+js(set-constant.js, document.hidden, 'false')
+whatsapp.net##+js(set-constant.js, document.visibilityState, 'visible')
+whatsapp.net##+js(set-constant.js, document.hidden, 'false')
+whatsapp.me##+js(set-constant.js, document.visibilityState, 'visible')
+whatsapp.me##+js(set-constant.js, document.hidden, 'false')
+wa.me##+js(set-constant.js, document.visibilityState, 'visible')
+wa.me##+js(set-constant.js, document.hidden, 'false')
+! Youtube
+youtube.com##+js(set-constant.js, document.visibilityState, 'visible')
+youtube.com##+js(set-constant.js, document.hidden, 'false')
+youtube-nocookie.com##+js(set-constant.js, document.visibilityState, 'visible')
+youtube-nocookie.com##+js(set-constant.js, document.hidden, 'false')
